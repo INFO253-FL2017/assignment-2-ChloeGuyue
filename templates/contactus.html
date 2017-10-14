@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+  <body>
+    <header>
+      <table>
+				<tr>
+					<td><a class='sidehyper' href="index">Homepage</a></td>
+					<td><a class='sidehyper' href="about">About Us</a></td>
+					<td><a class='sidehyper' href="contact">Contact Us</a></td>
+				</tr>
+			</table>
+    </header>
+    <h1>Contact us</h1>
+    <hr /><br />
+    <ul>
+        {% for notification in notifications %}
+        <li>{{ notification }}</li>
+        {% endfor %}
+    </ul>
+    <div id="feedback1" style="color:#990000">
+    </div>
+
+    <form id="contact_form" action="/contact" method="POST">
+
+      <p><label for="get_name">Name: </label>
+      <input id="get_name" type="text" name="Name"></p>
+
+      <p><label for="get_subject">Subject: </label>
+      <input id="get_subject" type="text" name="Subject"></p>
+
+      <p><label for="get_message">Message: </label><br />
+      <textarea id="get_message" name="Message" rows="5" cols="80"></textarea></p>
+      <input type="submit" value="submit">
+
+    </form>
+  
+    <!-- <script src="/static/js/script.js"></script> -->
+
+    <footer>
+      <br /><br />
+      <table>
+				<tr>
+					<td><a class='sidehyper' href="index">Homepage</a></td>
+					<td><a class='sidehyper' href="about">About Us</a></td>
+					<td><a class='sidehyper' href="contact">Contact Us</a></td>
+				</tr>
+			</table>
+    </footer>
+  </body>
+</html>

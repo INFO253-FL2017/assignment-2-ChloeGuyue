@@ -1,0 +1,45 @@
+body {
+  margin-left: 80px;
+  margin-right: 50px;
+  /*background-image: url("../1.jpg");*/
+
+}
+
+.sidehyper:link{
+  color:white;
+  text-decoration: none;
+}
+.sidehyper:visited{
+  color:white;
+}
+.sidehyper:hover{
+
+}
+.sidehyper:active{
+
+}
+#visitor_comment{
+  height:80px;
+  width:400px;
+}
+#visitor_name{
+  height:20px;
+  width:150px;
+}
+
+header {
+  text-align: center;
+
+}
+table tr td {
+  width: 250px;
+  text-align: center;
+}
+
+table {
+  background-color:#990000;
+}
+footer {
+  text-align: center;
+  margin-left: 0px;
+}

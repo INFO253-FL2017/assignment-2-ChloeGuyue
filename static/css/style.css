@@ -1,3 +1,87 @@
+body {
+  color:#660000;
+  margin-left: 80px;
+  /*background-image: url("../1.jpg");*/
+}
 h1 {
-	color: blue;
+  color:#990000;
+}
+h2 {
+  color:#800000;
+}
+hr {
+  margin-left:0;
+  width: 765px;
+}
+h4 a:link {
+  color:inherit;
+  text-decoration: none;
+}
+h4 a:visited{
+  color:#000000;
+}
+h4 a:hover{
+
+}
+
+h4 a:active{
+
+}
+.hyper:link{
+  color:inherit;
+  text-decoration: none;
+}
+.hyper:visited{
+  color:#990000;
+}
+.hyper:hover{
+  text-decoration: underline;
+}
+.hyper:active{
+  color:#FFFFFF;
+}
+
+.sidehyper:link{
+  color:white;
+  text-decoration: none;
+}
+.sidehyper:visited{
+  color:white;
+}
+.sidehyper:hover{
+
+}
+.sidehyper:active{
+
+}
+#get_name{
+  background-color:rgba(0, 0, 0, 0);
+}
+#get_subject{
+  background-color:rgba(0, 0, 0, 0);
+}
+#get_message{
+  background-color:rgba(0, 0, 0, 0);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size:
+}
+
+header {
+  text-align: center;
+  margin-left: 0px;
+}
+table tr td {
+  width: 250px;
+}
+
+table {
+  background-color:#990000;
+}
+footer {
+  text-align: center;
+  margin-left: 0px;
+
 }
