@@ -1,5 +1,10 @@
 // script.js
-"""Not using js"""
+
+// used Python to realize the function, so no need for JavaScript.
+
+
+
+
 // var form = document.getElementById("contact_form");
 // form.addEventListener("submit", function(event){
 //   var name = form.elements.namedItem("Name").value;

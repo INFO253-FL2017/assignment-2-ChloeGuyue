@@ -38,11 +38,12 @@ def send_email():
     name = request.form.get("Name")
     subject = request.form.get("Subject")
     message = request.form.get("Message")
+    email = request.form.get("Email")
     notifications = []
     a = []
     missing_value = ''
     if name and subject and message:
-        content = "Name: " + name + "\n" + "Subject: " + subject + "\n" + "Message: " + message + "\n"
+        content = "Name: " + name + "\n" + "Email: " + email + "\n" + "Subject: " + subject + "\n" + "Message: " + message + "\n"
 
         data = {
             'from': os.environ["INFO253_MAILGUN_FROM_EMAIL"],
@@ -63,6 +64,8 @@ def send_email():
     else:
         if not name:
             a += ["\"Name\""]
+        if not email:
+            a += ["\"Email\""]
         if not subject:
             a += ["\"Subject\""]
         if not message:
