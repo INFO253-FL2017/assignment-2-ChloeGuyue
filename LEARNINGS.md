@@ -1,11 +1,11 @@
 # LEARNINGS Muxuan
 1. What is the function of the following technologies in your assignment:
-* HTML: HTML is an agreed-upon markup language. I used it to organize the content my web pages.
+* HTML: HTML is an agreed-upon markup language. I used it to organize the content of my web pages.
 * CSS: I used CSS to format the HTML pages that I've written.
 * JavaScript: I used JavaScript to add functions to the HTML so that it can interact with users in response to their actions.
 * Python: I used Python script to power the whole application.
-* Flask: Flask is a python framework for web development. I used it to facilitate the web development process; it makes develop web pages much easier and convenient.
-* HTTP: HTTP is a protocol for hypertext to transfer between servers and clients. The function of HTTP in my assignment is to ensure the transfer of requests/response between my server and my requests.
+* Flask: Flask is a python framework for web development. I used it to facilitate the web development process; it makes develop web pages much easier and more convenient.
+* HTTP: HTTP is a protocol for hypertext to transfer between servers and clients. The function of HTTP in my assignment is to ensure the transfer of requests/response between my server and user requests.
 * GET and POST requests: GET: a request method, with which users can request for data from server.  POST: another request method, with which users can both request and post data from/to the server.
 ---
 2. How does HTML, CSS, and JavaScript work together in the browser for this assignment?
